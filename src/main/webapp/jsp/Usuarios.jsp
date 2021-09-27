@@ -20,15 +20,15 @@
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand smothscroll" href="index.jsp"><b>Casablanca
+				<a class="navbar-brand smothscroll" href="/TiendaCasaBlanca/jsp/Index.jsp"><b>Casablanca
 						Médica</b></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#" class="smothscroll">Usuarios</a></li>
-					<li><a href="#" class="smothscroll">Clientes</a></li>
-					<li><a href="#" class="smothscroll">Proveedores</a></li>
-					<li><a href="#" class="smothscroll">Productos</a></li>
+					<li><a href="/TiendaCasaBlanca/jsp/Usuarios.jsp" class="smothscroll">Usuarios</a></li>
+					<li><a href="/TiendaCasaBlanca/jsp/clientes.jsp" class="smothscroll">Clientes</a></li>
+					<li><a href="/TiendaCasaBlanca/jsp/proveedores.jsp" class="smothscroll">Proveedores</a></li>
+					<li><a href="/TiendaCasaBlanca/jsp/productos.jsp" class="smothscroll">Productos</a></li>
 					<li><a href="#" class="smothscroll">Ventas</a></li>
 					<li><a href="#" class="smothscroll">Reportes</a></li>
 				</ul>
@@ -49,39 +49,34 @@
 					<div class="col-lg-12">
 						<br>
 						<center>
-							<form id="formulariousuario" name="formularioususario" action=""
-								method="get">
+							<form id="formulariousuario" name="formularioususario" action="" method="get">
 								<div id="contenedorprincipal">
-									<br>
-									<br>
-									<br>
-									<br>
-									<br>
+									<br> <br> <br> <br> <br>
 									<div class="zonaizquierdo">
-											<label for="cedula">Cédula</label>: 
-											<input type="text" name="cedula" id="cedula" size="20" maxlength="50" /> 
-											<br>
-											<label for="nombre Completo">Nombre Completo</label>: 
-											<input type="text" name="nombreUsuario" id="nombreUsuario" size="20" maxlength="50"/>
-											<br>
-											<label for= "Correo Electronico:&nbsp">Correo Electronico:</label> 
-											<input type="text" name="email" id="email" size="20" maxlength="50" />
+										<label for="cedula">Cédula</label>: <input type="text"
+											name="cedula" id="cedula" size="20" maxlength="50" /> 
+											<label for="Usuario:&nbsp">Usuario:</label> <input type="text"
+										name="Usuario" id="Usuario" size="20" maxlength="50" /> <br>
+										<label for="nombre Completo">Nombre Completo</label>: <input
+											type="text" name="nombreUsuario" id="nombreUsuario" size="20"
+											maxlength="50" /> 
+											<label for="Contraseña:&nbsp"> Contraseña</label> <input
+										type="password" name="clave" id="clave" size="20"
+										maxlength="50" /> <br>
+											<label
+											for="Correo Electronico:&nbsp">Correo Electronico:</label> <input
+											type="text" name="email" id="email" size="20" maxlength="50" />
 									</div>
-         							</div>
-         							
-         							<div class="zonaderecha">
-										<label for="Usuario:&nbsp">Usuario:</label>
-										 <input type="text" name="Usuario" id="Usuario" size="20" maxlength="50" />
-										 <br>  
-										<label for="Contraseña:&nbsp"> Contraseña</label> <input type="password" name="clave" id="clave" size="20"
-										maxlength="50" /> 
-										
-									
-									<br> <br />
-										<input type="submit" id="botonConsultar" name="botonConsultar" value="Consultar" /> &nbsp;&nbsp; 
-										<input type="submit" id="botonCrear" name="botonCrear" value="Crear" /> &nbsp;&nbsp;
-										<input type="submit" id="botonActualizar" name="botonActualizar" value="Actualizar" /> &nbsp;&nbsp;
-										<input type="reset" id="botonBorrar" value="Borrar" />
+								</div>
+
+								<div class="zonaderecha">
+									<br> <br /> <input type="submit"
+										id="botonConsultar" name="botonConsultar" value="Consultar" />
+									&nbsp;&nbsp; <input type="submit" id="botonCrear"
+										name="botonCrear" value="Crear" /> &nbsp;&nbsp; <input
+										type="submit" id="botonActualizar" name="botonActualizar"
+										value="Actualizar" /> &nbsp;&nbsp; <input type="reset"
+										id="botonBorrar" value="Borrar" />
 								</div>
 							</form>
 						</center>

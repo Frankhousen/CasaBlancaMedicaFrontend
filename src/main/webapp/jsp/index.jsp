@@ -20,7 +20,7 @@
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand smothscroll" href="index.jsp"><b>Casablanca
+				<a class="navbar-brand smothscroll" href="Index.jsp"><b>Casablanca
 						Médica</b></a>
 
 				<!--/.nav-collapse -->
@@ -53,26 +53,22 @@
 								<form class="form-sign" method="get" action="./DemoServlet">
 									<center>
 										<div class="form-group text-center">
-											<br>
-											<br>
+											<br> <br>
 											<h3>Login</h3>
-											<img src="img/Login.png" width="40" alt="40"> <label>Bienvenidos
+											<img src="./img/Login.png" width="40" alt="40"> <label>Bienvenidos
 												al Sistema</label>
 
 										</div>
 									</center>
 									<div class="form-group text-center">
 
-											<label>Usuario:</label> <label><input type="text"
-												name="txtusuario" class="form-control"></label> <br> <label>Password:</label>
-											<label><input type="password" name="txtpassword"
-												class="form-control"></label><br> 
-												<input type="submit"
-												name="accion" value="Ingresar" class="btn btn-primary">
-												</div>
+										<label>Usuario:</label> <label><input type="text"
+											name="txtusuario" class="form-control"></label> <br> <label>Password:</label>
+										<label><input type="password" name="txtpassword"
+											class="form-control"></label><br> <input type="submit"
+											name="accion" value="Ingresar" class="btn btn-primary">
+									</div>
 								</form>
-										
-							
 						</div>
 					</div>
 				</div>
